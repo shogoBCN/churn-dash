@@ -1,0 +1,88 @@
+body {
+    font-family: sans-serif;
+}
+
+.page_Title {
+    text-align: center;
+    color: rgb(86, 86, 201);
+    margin-top: 10px; 
+    margin-bottom: 20px
+}
+
+.main_Frame {
+    margin: auto;
+    width: 95%
+}
+
+.Spacer {
+    height: 30px
+}
+
+.Spacer_2 {
+    height: 55px
+}
+
+.dropdown_row {
+    margin-top: 20px; 
+    margin-bottom: 40px
+}
+
+#feat_dropdown {
+    margin-top: 4px;
+    margin-bottom: 4px
+}
+
+#cats_radio > label {
+    padding-right: 12px;
+}
+
+#cats_radio > label > input {
+    margin-right: 3px;
+}
+
+#table {
+    margin-top: 20px;
+}
+
+.drop_container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    margin: auto;
+    width: 80%
+}
+
+.graphs_row_1 {
+    display: flex;
+    align-content: center;  
+}
+
+.churn_container, .dist_container, .scatter_container, #churn_drop, #dist_drop, #scatter_drop_1, #scatter_drop_2 {
+    width: 100%
+}
+
+.scatter_drop_container {
+    display: flex;
+    justify-content: center;
+}
+
+.scatter_drop_container > div {
+    margin: auto;
+    padding-bottom: -30px;
+    width: 45%
+}
+
+#target_drop, #compare_drop, #text_span {
+    margin: auto;
+    width: 90%;
+    text-align: center
+}
+
+#text_span {
+    margin-bottom: 15px;
+}
+
+#graphs_dist, #graph_churn {
+    width: 100%
+}
