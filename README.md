@@ -1,2 +1,2 @@
-# Dash_Churn
+# plotly.dash playground dashboard
  
