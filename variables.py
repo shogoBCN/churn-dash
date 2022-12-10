@@ -58,6 +58,6 @@ churn_rate_list = [ "Geography", "Gender", "Credit Score Class", "Age", "Age Cla
 
 dist_list = [ "Geography", "Credit Score", "Credit Score Class", "Age", "Age Class", "Tenure", "Tenure Class", "Product Count", "Balance", "Estimated Salary", "Churned" ]
 
-scatter_list = [ "Credit Score", "Age", "Tenure", "Balance", "Estimated Salary", "Churned"]
+scatter_list = [ "Credit Score", "Age", "Balance", "Estimated Salary"]
 
 print(df.info())
